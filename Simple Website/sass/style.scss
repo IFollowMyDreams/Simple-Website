@@ -1,0 +1,203 @@
+$bg-color: white;
+$border-color: #CCCCCC;
+$hover-color: #CCCCCC;
+$padding-right: 2.1vw;
+$padding-left: 1.9vw;
+$ff-1: 'Open Sans', sans-serif;
+$ff-2: 'Roboto Condensed', sans-serif;
+$fz-1: 14px;
+$fz-2: 15.65px;
+$fc: #222222;
+$fw: 700;
+
+body {
+	background-color: $bg-color;
+	font-family: $ff-1;
+	font-size: $fz-1;
+	color: $fc;
+}
+
+.border-bottom {
+	border-bottom: $border-color 1px solid;
+}
+
+.border-right {	
+	border-right: $border-color 1px solid;
+}	
+
+.padding-right {
+	padding-right: $padding-right;
+}
+
+.padding-left {
+	padding-left: $padding-left;
+}
+
+// .........................Top Header...................
+.top-header {
+	display: flex;
+}
+
+// ........................Top Left..........................
+.top-left {
+	display: flex;
+	justify-content: space-around;
+	width: 25vw;
+	
+	.center {
+		align-self: center;
+	}
+
+
+}
+// ........................Top Right..........................
+.top-right {
+	display: flex;
+	justify-content: flex-end;
+	width: 75vw;
+	
+	.top-right-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.center {
+		align-self: center;
+	}
+
+	a {
+		width: 100%;
+		height: 100%;	
+		text-decoration: none;
+		text-align: center;
+		color: $fc;
+	}
+
+	a:hover {
+		color: white;
+		background-color: $hover-color;
+		transition: 0.6s;
+	}
+
+	.top-right-text-help {
+		margin-left: 15px;
+	}
+}
+
+// .................Main Header......................
+.main-header {
+	display: flex;
+	height: 90px;
+
+	.main-header-logo {
+		align-items: center;
+
+		img {
+			display:inline-block;
+			margin: 20px;
+		}
+	}
+
+	.main-header-nav {
+		width: 100%;
+	}
+
+	ul {
+		display: flex;
+		height: 100%;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	a {
+		width: 100%;
+		height: 100%;	
+		text-decoration: none;
+		text-align: center;
+		color: $fc;
+		font-weight: $fw;
+		font-size: $fz-2;
+		margin-right: $padding-right+3.7;
+		border-right: 5px;
+		text-transform: uppercase;
+	}
+
+	a:hover {
+		color: white;
+		background-color: $hover-color;
+		transition: 0.6s;
+		border-radius: 5px;
+	}
+
+	i {
+		margin-right: 15px;
+	}
+
+	i:hover {
+		color: white;
+		background-color: $hover-color;
+		transition: 0.6s;
+		border-radius: 5px;
+	}
+}
+// <!-- .....................Slider........................................... -->
+.wlc {
+	position: relative;
+	.wlc-bg-img {
+  		img {
+		background-repeat: no-repeat;
+		width: 100%;
+		}
+  	}
+
+
+
+  	i {
+  		position: absolute;
+  		font-size: $fz-1+30;
+  		color: white;
+  		opacity: .5;
+  		font-weight: 550;
+  		background: url(../img/bg-arrow.png);
+  	}
+
+	.fa-angle-left {
+		top: 40%;
+  		left: 15px;
+	}
+
+	.fa-angle-right {
+		top: 40%;
+  		right: 15px;
+	}
+
+  	 
+	.wlc-text {
+		position: absolute;
+		top: 40%;
+		left: 30%;
+		color: white;
+
+		.wlc-text-1 {
+			text-transform: uppercase;
+			font-size: 36px;
+			font-family: $ff-2;
+			margin: 0;
+		}
+		.wlc-text-2 {
+			position: absolute;
+			left: 15%;
+
+			font-size: 10px;
+			font-family: $ff-1;
+		}
+
+		.wlc-btn {
+			position: absolute;
+			top: 30%;
+			left: 30%;
+			border: 1px solid white;
+		}
+	}
+}

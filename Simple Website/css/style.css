@@ -1,0 +1,192 @@
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #222222;
+}
+
+.border-bottom {
+  border-bottom: #CCCCCC 1px solid;
+}
+
+.border-right {
+  border-right: #CCCCCC 1px solid;
+}
+
+.padding-right {
+  padding-right: 2.1vw;
+}
+
+.padding-left {
+  padding-left: 1.9vw;
+}
+
+.top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 25vw;
+}
+.top-left .center {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 75vw;
+}
+.top-right .top-right-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top-right .center {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.top-right a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #222222;
+}
+.top-right a:hover {
+  color: white;
+  background-color: #CCCCCC;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.top-right .top-right-text-help {
+  margin-left: 15px;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+}
+.main-header .main-header-logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-header .main-header-logo img {
+  display: inline-block;
+  margin: 20px;
+}
+.main-header .main-header-nav {
+  width: 100%;
+}
+.main-header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-header a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #222222;
+  font-weight: 700;
+  font-size: 15.65px;
+  margin-right: 5.8vw;
+  border-right: 5px;
+  text-transform: uppercase;
+}
+.main-header a:hover {
+  color: white;
+  background-color: #CCCCCC;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border-radius: 5px;
+}
+.main-header i {
+  margin-right: 15px;
+}
+.main-header i:hover {
+  color: white;
+  background-color: #CCCCCC;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border-radius: 5px;
+}
+
+.wlc {
+  position: relative;
+}
+.wlc .wlc-bg-img img {
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.wlc i {
+  position: absolute;
+  font-size: 44px;
+  color: white;
+  opacity: .5;
+  font-weight: 550;
+  background: url(../img/bg-arrow.png);
+}
+.wlc .fa-angle-left {
+  top: 40%;
+  left: 15px;
+}
+.wlc .fa-angle-right {
+  top: 40%;
+  right: 15px;
+}
+.wlc .wlc-text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: white;
+}
+.wlc .wlc-text .wlc-text-1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+}
+.wlc .wlc-text .wlc-text-2 {
+  position: absolute;
+  left: 15%;
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.wlc .wlc-text .wlc-btn {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  border: 1px solid white;
+}
+
+/*# sourceMappingURL=style.css.map */
